@@ -141,7 +141,7 @@ function App() {
   ])
 
 
-  useEffect(() => {
+  // useEffect(() => {
 
   //   window.addEventListener("resize", () => {
   //     if (window.innerWidth < 800) {
