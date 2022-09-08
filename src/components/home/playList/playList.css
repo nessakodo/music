@@ -28,7 +28,10 @@
   height: 100vh;
   overflow-y: auto;
   padding-top: 3rem;
-  padding-bottom: 12rem;
+  /* padding-bottom: 12rem; */
+}
+.playListContainer .col:last-child {
+  margin-bottom: 10rem;
 }
 .titlePlayList {
   background-color: rgba(57, 167, 204, 0.623);
