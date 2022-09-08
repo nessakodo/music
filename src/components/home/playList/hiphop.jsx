@@ -32,7 +32,7 @@ const Hiphop = () => {
           }).map((s) => {
             if (s.genre === "HipHop") {
               return (
-                <div key={s.musicId} className="col  ">
+                <div key={s.musicId} className="col">
                   <div className="box_music">
                     <div className="overlayBox" onClick={() => context.setId(s.musicId)}>
                       <div className="overlay">

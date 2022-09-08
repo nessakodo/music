@@ -37,6 +37,9 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
 .container {
   width: 100vw;
 }
+.col:last-child{
+  margin-bottom: 2rem;
+}
 .song_container {
   padding: 0.5rem;
 }
@@ -89,12 +92,13 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
 }
 
 .player_container {
+  overflow: hidden;
   border-top: 0.1rem solid white;
   background-color: #222222;
   width: 100%;
-  height: 4.5rem;
+  height: 4.6rem;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   display: flex;
@@ -280,7 +284,7 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
 .player_container .containerDetailMusic .closeFullImg {
   z-index: 101;
   position: fixed;
-  top: 2rem;
+  top: 2rem; 
   left: 2rem;
   border-radius: 10%;
   width: 3.5rem;
@@ -339,7 +343,7 @@ input[type="range"]:focus::-webkit-slider-runnable-track {
     width: 10rem;
   }
   .player_container {
-    bottom: 4.5rem;
+    bottom: 4.2rem;
   }
 
   .player_container h5 {

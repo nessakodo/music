@@ -1,5 +1,6 @@
 .contactUsContainer {
-  margin-top: 2rem;
+  padding-top: 2rem;
+  overflow: hidden;
 }
 .rtlStyle .input_group label {
   right: -12rem;
