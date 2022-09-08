@@ -143,18 +143,18 @@ function App() {
 
   useEffect(() => {
 
-    window.addEventListener("resize", () => {
-      if (window.innerWidth < 800) {
-        document.querySelector("#mobileMenu").style.display = "block";
-        document.querySelector("#desktopMenu").style.display = "none";
-        document.querySelector('.player_container').classList.add('mobileMode')
-      } else {
-        document.querySelector("#desktopMenu").style.display = "block";
-        document.querySelector("#mobileMenu").style.display = "none";
-        document.querySelector('.player_container').classList.remove('mobileMode')
-      }
-    });
-  });
+  //   window.addEventListener("resize", () => {
+  //     if (window.innerWidth < 800) {
+  //       document.querySelector("#mobileMenu").style.display = "block";
+  //       document.querySelector("#desktopMenu").style.display = "none";
+  //       document.querySelector('.player_container').classList.add('mobileMode')
+  //     } else {
+  //       document.querySelector("#desktopMenu").style.display = "block";
+  //       document.querySelector("#mobileMenu").style.display = "none";
+  //       document.querySelector('.player_container').classList.remove('mobileMode')
+  //     }
+  //   });
+  // });
 
   return (
     <>
