@@ -6,6 +6,8 @@ import { BsFillSkipEndFill, BsSkipStartFill, BsHeart, BsHeartFill } from "react-
 import { TbRepeatOff, TbRepeatOnce } from "react-icons/tb"
 import ApiContext from '../../context/ApiContext';
 
+import Swal from 'sweetalert2';
+
 
 const Player = () => {
     const [repeat, setRepeat] = useState(true)
@@ -21,7 +23,13 @@ const Player = () => {
     const context = useContext(ApiContext)
 
     useEffect(() => {
-        alert("If it is the first time to login, it may take some time to load the song!!")
+        // alert("")
+        Swal.fire({
+            text: 'If it is the first time to login, it may take some time to load the song!!',
+            icon: 'info',
+            color: 'gray',
+            confirmButtonText: 'Ok'
+        })
     }, [])
     useEffect(() => {
         if (context.id !== "") {
