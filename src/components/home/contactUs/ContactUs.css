@@ -1,5 +1,6 @@
 .contactUsContainer {
   padding-top: 2rem;
+  min-height: 100vh;
   overflow: hidden;
 }
 .rtlStyle .input_group label {
